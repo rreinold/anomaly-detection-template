@@ -1,0 +1,14 @@
+{
+    "current_version": 168,
+    "dependencies": "clearblade,log,AnomalyDetection",
+    "logging_enabled": "true",
+    "name": "DetectAnomaly",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "DetectAnomaly.js"
+}
