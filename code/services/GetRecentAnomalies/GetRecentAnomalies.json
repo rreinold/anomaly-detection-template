@@ -1,0 +1,14 @@
+{
+    "current_version": 6,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "GetRecentAnomalies",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "GetRecentAnomalies.js"
+}
