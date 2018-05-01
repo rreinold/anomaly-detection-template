@@ -1,7 +1,8 @@
 {
     "author": {
-        "email": "rreinold@clearblade.com"
+        "email": "rob@clearblade.com"
     },
+    "asset_types":["Code Services","Code Libraries","Portals","Timers","System"]
     "clouds": [],
     "description": "Library for identification of items, events or observations which do not conform to an expected pattern or other items in a dataset",
     "domains": [
