@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "Library for identification of items, events or observations which do not conform to an expected pattern or other items in a dataset",
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "pd-anomaly-detection",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "ea94fcad0bf699f0d59487fed1e801",
+    "system_secret": "EA94FCAD0BA8D1CFC4CCAAEBBC8101"
+}
