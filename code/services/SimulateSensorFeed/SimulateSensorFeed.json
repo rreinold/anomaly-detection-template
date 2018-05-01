@@ -1,0 +1,10 @@
+{
+    "current_version": 11,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "SimulateSensorFeed",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "SimulateSensorFeed.js"
+}
