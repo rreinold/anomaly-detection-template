@@ -1,0 +1,14 @@
+{
+    "current_version": 151,
+    "dependencies": "AnomalyDetection,log",
+    "logging_enabled": "true",
+    "name": "ExampleDetectAnomaly",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "ExampleDetectAnomaly.js"
+}
