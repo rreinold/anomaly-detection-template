@@ -1,0 +1,88 @@
+{
+    "app_id": "ea94fcad0bf699f0d59487fed1e801",
+    "collection_id": "8ec29bae0beeb4efe2b9cad1a619",
+    "items": [
+        {
+            "default_val": "temperature",
+            "item_id": "4f1bd68d-2096-4f72-b355-bd6a81eed936",
+            "key": "sensor_key",
+            "val": "temperature",
+            "val_enum_options": "*"
+        },
+        {
+            "default_val": null,
+            "item_id": "8c64dad9-377a-4fba-b328-8116958ba4db",
+            "key": "email_alerts_recipients",
+            "val": "[\"a@a.com\",\"b@b.com\"]",
+            "val_enum_options": "[\"a@a.com\",\"b@b.com\"]"
+        },
+        {
+            "default_val": "5555555555",
+            "item_id": "9f662f58-f7c9-469d-b456-4b0dd9d9111d",
+            "key": "sms_alerts_recipient",
+            "val": "",
+            "val_enum_options": "5555555555"
+        },
+        {
+            "default_val": "false",
+            "item_id": "d383b03f-f356-47f4-8994-30758774c572",
+            "key": "sms_alerts_enabled",
+            "val": "false",
+            "val_enum_options": "[\"true\",\"false\"]"
+        },
+        {
+            "default_val": "sensor",
+            "item_id": "def7bf33-4723-40fc-abac-743af3b36781",
+            "key": "topic",
+            "val": "sensor",
+            "val_enum_options": "*"
+        },
+        {
+            "default_val": "MODERATE",
+            "item_id": "fd8944aa-3673-491f-84c1-1246b2b05265",
+            "key": "strictness",
+            "val": "HIGH",
+            "val_enum_options": "[\"OFF\",\"LOW\",\"MODERATE\",\"HIGH\"]"
+        },
+        {
+            "default_val": "false",
+            "item_id": "ffbabce2-a3a1-4e28-9ff6-3a12ae877a27",
+            "key": "email_alerts_enabled",
+            "val": "false",
+            "val_enum_options": "[\"true\",\"false\"]"
+        }
+    ],
+    "name": "AnomalyConfiguration",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 5,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "key",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "val",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "val_enum_options",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "default_val",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
