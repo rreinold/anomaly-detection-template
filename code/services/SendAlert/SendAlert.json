@@ -1,0 +1,14 @@
+{
+    "current_version": 111,
+    "dependencies": "clearblade,log,SendGridEmail,TwilioSMS,AnomalyDetectionConstants",
+    "logging_enabled": "true",
+    "name": "SendAlert",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "SendAlert.js"
+}
