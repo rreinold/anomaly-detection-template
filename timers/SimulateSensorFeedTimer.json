@@ -1,0 +1,8 @@
+{
+    "description": "SimulateSensorFeedTimer",
+    "frequency": 10,
+    "name": "SimulateSensorFeedTimer",
+    "repeats": -1,
+    "service_name": "SimulateSensorFeed",
+    "start_time": "2018-04-30T05:00:23Z"
+}
