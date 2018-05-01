@@ -1,0 +1,98 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "DetectAnomaly",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            },
+            {
+                "Level": 1,
+                "Name": "ExampleDetectAnomaly",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            },
+            {
+                "Level": 1,
+                "Name": "GetRecentAnomalies",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            },
+            {
+                "Level": 1,
+                "Name": "SaveAnomalyConfiguration",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            },
+            {
+                "Level": 1,
+                "Name": "SendAlert",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            },
+            {
+                "Level": 1,
+                "Name": "getRecentAnomalies",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            },
+            {
+                "Level": 1,
+                "Name": "saveAnomalyConfiguration",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "90c19bae0b9ebdfdb6f8ab8efa36",
+                "Items": [],
+                "Level": 15,
+                "Name": "Anomalies"
+            },
+            {
+                "Columns": [],
+                "ID": "8ec29bae0beeb4efe2b9cad1a619",
+                "Items": [],
+                "Level": 15,
+                "Name": "AnomalyConfiguration"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 1,
+                "Name": "AnomalyDetection",
+                "SystemKey": "ea94fcad0bf699f0d59487fed1e801"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
