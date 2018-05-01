@@ -1,0 +1,14 @@
+{
+    "current_version": 9,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "SaveAnomalyConfiguration",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "SaveAnomalyConfiguration.js"
+}
