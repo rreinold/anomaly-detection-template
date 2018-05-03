@@ -1,12 +1,12 @@
 /**
  * @typedef Calibration
- * @property {number}min
- * @property {number} max
- * @property {number} strictness
- * @property {number} medians
- * @property {number} pointsPerWindow
- * @property {number} numWindows
- * 
+ * @property {number} min min value within threshold
+ * @property {number} max max value within threshold
+ * @property {number} strictness how strict the threshold is against the dataset
+ * @property {number} medians intermediary dataset representing the moving medians
+ * @property {number} pointsPerWindow calibration, number of points per processing window. may be increased for larger datasets
+ * @property {number} numWindows calibration metric derived from pointsPerWindow
+ */
 
 /**
  * @typedef Anomaly
