@@ -1,7 +1,7 @@
 
 # ipm package: anomaly-detection
 
-!()[https://i.imgur.com/WMiIitP.png]
+![https://i.imgur.com/WMiIitP.png]()
 ## Overview
 
 Run a self-training anomaly detection algorithm against a given dataset. The selected algorithm is Moving Median Decomposition as seen in this whitepaper for [Anomaly Detection for Predictive Maintenance](https://files.knime.com/sites/default/files/inline-images/Anomaly_Detection_Time_Series_final.pdf). This Library is for identification of items, events or observations which do not conform to an expected pattern or other items in a dataset.
